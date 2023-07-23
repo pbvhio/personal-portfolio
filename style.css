@@ -1,7 +1,30 @@
 h1 {
-	color: white;
+	color: #000;
 }
 
 #about-me-image {
-    display: none;
+    display: block;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    }
+
+.project {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.project a {
+    text-decoration: none;
+    color: #333;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
 }
